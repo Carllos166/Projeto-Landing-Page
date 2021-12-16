@@ -1,0 +1,54 @@
+:root {
+    --laranja: hsl(26, 100%, 50%);
+    --redlaranja: hsla(16, 100%, 50%, 0.926);
+}
+
+* { /* Tudo */
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background: var(--laranja);
+    height: 3.5px;
+}
+
+header .logotype {
+    border-color: var(--laranja);
+    margin-left: 120px;
+    margin-top: 45px;
+}
+
+header .container {
+    border-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+header nav a {
+    color: var(--laranja);
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+header nav a:hover {
+    color: var(--redlaranja);
+}
+
+
+
+.separator-image {
+    background: url('/img/.separator-image.png');
+}
+
+.container li {
+    display: inline-block;
+}
+
+.dados {
+background-color: blue;
+}
