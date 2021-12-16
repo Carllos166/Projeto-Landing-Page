@@ -15,6 +15,7 @@
 }
 
 header .logotype {
+    /*position: relative;*/
     border-color: var(--laranja);
     margin-left: 120px;
     margin-top: 45px;
@@ -41,14 +42,44 @@ header nav a:hover {
 
 
 
-.separator-image {
-    background: url('/img/.separator-image.png');
+img .separator-image {
+
+   
 }
+
+.separator-image img {
+    width: 100%;
+    height: 90px;
+    margin-top: 110px;
+}
+
 
 .container li {
     display: inline-block;
 }
 
+.wrapper {
+    
+}
+
+h1 {
+    pos
+    max-width: 1300px;
+
+}
+
+.principal {
+    color: var(--laranja);
+    text-align: center;
+}
+
 .dados {
 background-color: blue;
+}
+
+.ebook {
+    /*position: absolute;*/
+    padding-left: 700px;
+    padding-bottom: 100px;
+
 }
