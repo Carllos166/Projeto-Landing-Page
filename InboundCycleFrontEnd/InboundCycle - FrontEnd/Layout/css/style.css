@@ -1,6 +1,7 @@
 :root {
     --laranja: hsl(26, 100%, 50%);
     --redlaranja: hsla(16, 100%, 50%, 0.926);
+    --cinza: rgb(79, 79, 81);
 }
 
 * { /* Tudo */
@@ -14,12 +15,11 @@
     height: 3.5px;
 }
 
-header .logotype {
-    /*position: relative;*/
-    border-color: var(--laranja);
-    margin-left: 120px;
-    margin-top: 45px;
+.logotype {
+    display: flex;
+    margin-left: 12%;
 }
+
 
 header .container {
     border-top: 50px;
@@ -40,13 +40,6 @@ header nav a:hover {
     color: var(--redlaranja);
 }
 
-
-
-img .separator-image {
-
-   
-}
-
 .separator-image img {
     width: 100%;
     height: 90px;
@@ -63,23 +56,75 @@ img .separator-image {
 }
 
 h1 {
-    pos
+    
     max-width: 1300px;
 
 }
 
 .principal {
     color: var(--laranja);
-    text-align: center;
-}
-
-.dados {
-background-color: blue;
 }
 
 .ebook {
-    /*position: absolute;*/
+    position: relative;
     padding-left: 700px;
     padding-bottom: 100px;
 
+}
+
+.conteudo {
+    position: absolutea;
+    border: 1px solid var(--laranja);
+}
+
+
+.dados {
+    background-color: blue;
+    }
+
+.footer-frame {
+    background-color: var(--cinza);
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.copyright {
+    margin-left: 1200px;
+}
+
+.links {
+   padding-left: 15px;
+}
+
+
+li {
+    display: inline-block;
+    
+    
+    
+
+}
+a:link {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+small {
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.popup {
+  
+    
+
+}   
+script {
+    display: none;
 }
