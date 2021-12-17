@@ -57,26 +57,37 @@ header nav a:hover {
     
 }
 
-h1 {
-    
-    max-width: 1300px;
+.bloco-ebook {
+    max-width: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+    margin: 5px;
+}
 
+.ebook {
+    margin: auto;
+}
+
+.conteudo {
+    position: absolute;
+    border: 1px solid var(--laranja);
 }
 
 .principal {
     color: var(--laranja);
 }
 
-.ebook {
-    position: relative;
-    padding-left: 700px;
-    padding-bottom: 100px;
 
+h1 {
+    
 }
 
-.conteudo {
-    position: absolutea;
-    border: 1px solid var(--laranja);
+h1 .principal {
+    order: 1;
+    position: relative;
+    display: flex;
+    
 }
 
 
@@ -87,8 +98,8 @@ h1 {
 .footer-frame {
     background-color: var(--cinza);
     display: flex;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .copyright {
