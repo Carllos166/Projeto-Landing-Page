@@ -67,6 +67,11 @@ header .container {
 
 .bloco-ebook {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.principal {
+    display: flex;
 }
 
 .container-esquerda {
@@ -75,8 +80,7 @@ header .container {
 }
 
 .container-direita {
-    display: flex;
-    flex-direction: column;
+    display: display: table-cell;
 }
 
 footer {
