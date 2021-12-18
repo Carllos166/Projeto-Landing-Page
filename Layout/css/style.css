@@ -3,7 +3,7 @@
     --redlaranja: hsla(16, 100%, 50%, 0.926);
     --cinza: rgb(79, 79, 81);
 }
-
+/* geral */
 * {
     margin: 0;
     padding: 0;
@@ -74,13 +74,9 @@ header .container {
     display: flex;
 }
 
-.container-esquerda {
+#container-esquerda {
     display: flex;
 
-}
-
-.container-direita {
-    display: display: table-cell;
 }
 
 footer {
@@ -137,6 +133,104 @@ footer {
     color: white;
     padding-right: 10px;
 }
+
+#container-direita {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(240, 238, 238);
+}
+
+#container-direita h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--laranja);
+    margin-bottom: 25px;
+
+}
+
+input, label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+input, label:focus {
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    width: 400px;
+    border-bottom: 2px solid;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+fieldset a{
+    color: var(--laranja);
+}
+
+.agreement{
+    margin-right: 5px;
+    padding: ;
+
+}
+
+.agreement, .agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+.agreement2, .agreement-label2 {
+    display: inline-block;
+    width: auto;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(1.2);
+  padding: 10px;
+}
+#btn-submit {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--redlaranja);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px;
+}
+
 
 
 footer a:link {

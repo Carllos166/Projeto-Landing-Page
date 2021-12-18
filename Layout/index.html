@@ -73,7 +73,7 @@
                 </div>
             </section>
             <main>
-                <div class="container-esquerda">
+                <div id="container-esquerda">
                     <div class="textos">
                         <div class="texto-principal">
                             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, asperiores.</h1>
@@ -99,24 +99,25 @@
                         explicabo est
                         rerum.</p>
                 </div>
-                <div class="container-direita">
-                    <form action="POST">
+                <div id="container-direita">
+                    <form ID="register-form">
                         <h3>Descargar e-book gratis.</h3>
                         <fieldset>
-                            <input type="text" name="nome" id="nombre">
-                            <input type="text" name="surname" id="Apellidos">
-                            <input type="email" name="email" id="Email">
+                            <input type="text" name="nome" id="nombre" placeholder="Nombre">
+                            <input type="text" name="surname" id="Apellidos" placeholder="Apellidos">
+                            <input type="email" name="email" id="Email" placeholder="E-mail">
                         </fieldset>
                         <fieldset>
-                            <label>
-                                <input type="checkbox" name="legal"> Acepto la <a href="#"
-                                    title="Lea nuestra política de privacidad">política de privacidad</a>*</label>
-                            <label>
-                                <input type="checkbox" name="subscription"> Suscríbeme al blog</label>
-                        </fieldset>
+                            <input type="checkbox" name="politica" class="agreement">
+                            <label for="agreement" class="agreement-label">Acepto la <a href="#"
+                                    title="Lea nuestra política de privacidad">política de privacidad*</a></label>
 
-                        <input type="button" name="button" id="button">
-                        <button type="submit" id="button">Descargar</button>
+                            <input type="checkbox" name="subscription" class="agreement2">
+                            <label for="agreement2" class="agreement-label2">Suscríbeme al blog</label>
+                        </fieldset>
+                        <button type="submit" id="btn-submit">DESCARGAR</button>
+                        
+
                     </form>
                 </div>
             </main>
@@ -136,6 +137,7 @@
                 </nav>
             </div>
         </footer>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
