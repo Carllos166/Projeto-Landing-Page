@@ -11,6 +11,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div {
+    display: flex;
+}
+
 .top-bar {
     background: var(--laranja);
     height: 3.5px;
@@ -73,26 +77,32 @@ nav a:hover {
 
 .main {
     display: flex;
-    background-color: #cdf6eb;
-    margin: 10px auto 30px;
-    max-width: auto;
-    font-family: sans-serif;
-    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: purple;
 }
 
-.bloco-ebook {
-    display: flex;
-    flex-wrap: wrap;
+.item1 {
+    color: var(--laranja);
+}
+
+.item2 {
     
 }
 
-.principal {
-    display: flex;
+.item3 {
+    
 }
 
-#container-esquerda {
+.container-esquerda {
     display: flex;
+    align-items: center;
+    background-color: #cdf6eb;
+    max-width: 50%;
+    font-family: sans-serif;
+}
 
+.wrap {
+    flex-wrap: wrap;
 }
 
 footer {
@@ -151,21 +161,38 @@ footer {
 }
 
 #container-direita {
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10px;*/
     padding: 25px;
     background-color: rgb(240, 238, 238);
 }
 
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+
 #container-direita h3 {
+    display: flex;
+    justify-content: flex-end;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: var(--laranja);
     margin-bottom: 25px;
 
+}
+
+
+
+.emphasizes {
+    
 }
 
 input, label {
@@ -192,12 +219,6 @@ input {
     margin-bottom: 15px;
 }
 
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 
 fieldset {
@@ -236,7 +257,7 @@ input[type=checkbox]
   padding: 10px;
 }
 #btn-submit {
-    width: 100%;
+    width: 400px;
     padding: 20px;
     background-color: var(--redlaranja);
     color: white;
@@ -244,7 +265,7 @@ input[type=checkbox]
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
-    margin: 30px;
+    margin: 15px;
 }
 
 
