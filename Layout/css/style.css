@@ -64,8 +64,8 @@ nav a:hover {
 }
 
 .container {
-    display: flex;
     border-top: 50px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 200px;
@@ -73,6 +73,11 @@ nav a:hover {
 
 .main {
     display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: auto;
+    font-family: sans-serif;
+    flex-wrap: wrap;
 }
 
 .bloco-ebook {
