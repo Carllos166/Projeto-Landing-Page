@@ -108,6 +108,15 @@ h1 {
 
 }
 
+.texto-longo {
+    margin-left: 200px;
+    font-size: 105%;   
+}
+
+.texto-longo a {
+    color: var(--redlaranja);
+}
+
 .container-esquerda {
     display: flex;
     max-width: 70%;
@@ -117,60 +126,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-}
-.footer-frame {
-    display: flex;
-    flex-direction: row;
-    background-color: var(--cinza);
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-.footer-frame img {
-    height: 59px;
-    width: auto;
-}
-
-#logotype {
-    display: flex;
-    margin-left: 200px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-    padding-top: 40px;
-} 
-
-.copyright {
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    padding-left: 400px; 
-    align-items: center;
-}
-
-.copyright:after {
-    content: "|";
-    color: white;
-    padding-left: 10px;
-}
-
-
-.final a {
-    color: white ;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    align-items: center;
-}
-
- 
-#inf:before {
-    content: "|";
-    color: white;
-    padding-right: 10px;
-}
 
 #container-direita {
     display: flex;
@@ -180,15 +135,6 @@ footer {
     padding: 25px;
     background-color: rgb(240, 238, 238);
 }
-
-.formulario {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: flex-end;
-    padding: 20px;
-}
-
 
 #container-direita h3 {
     display: flex;
@@ -281,6 +227,13 @@ input[type=checkbox]
 }
 
 
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 20px;
+}
 
 footer a:link {
     text-decoration: none;
@@ -296,4 +249,59 @@ a:hover {
 small {
     color: rgb(255, 255, 255);
     padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer-frame {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cinza);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.footer-frame img {
+    height: 59px;
+    width: auto;
+}
+
+#logotype {
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    padding-top: 40px;
+} 
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-left: 400px; 
+    align-items: center;
+}
+
+.copyright:after {
+    content: "|";
+    color: white;
+    padding-left: 10px;
+}
+
+
+.final a {
+    color: white ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: center;
+}
+
+ 
+#inf:before {
+    content: "|";
+    color: white;
+    padding-right: 10px;
 }
