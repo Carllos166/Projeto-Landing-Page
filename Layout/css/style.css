@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    
+}
+
 div {
     display: flex;
 }
@@ -96,6 +100,7 @@ h1 {
     color: rgb(181, 179, 179);
     max-width: 90%;
     margin-left: 200px;
+    padding: auto;
     
 }
 
@@ -110,6 +115,7 @@ h1 {
 
 .texto-longo a {
     color: var(--redlaranja);
+    padding: auto;
 }
 
 .container-esquerda {
@@ -145,9 +151,10 @@ h1 {
 
 
 .emphasizes {
-    background-color: rgb(96, 252, 96);
     color: var(--redlaranja);
-    margin-left: 30%;
+    margin-left: 40%;
+    font-size: 120%;
+    padding: auto;
 }
 
 input, label {
@@ -221,6 +228,7 @@ input[type=checkbox]
     font-weight: bold;
     cursor: pointer;
     margin: 15px;
+    margin-right: 50;
 }
 
 
