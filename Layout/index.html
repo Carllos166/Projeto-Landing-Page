@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!--responsividade-->
-    <link rel="stylesheet" href="">
+
 
 <body>
     <!-- Header -->
@@ -84,13 +84,15 @@
                             <input type="text" name="surname" id="Apellidos" placeholder="Apellidos">
                             <input type="email" name="email" id="Email" placeholder="E-mail">
                         </fieldset>
-                        <fieldset>
-                            <input type="checkbox" name="politica" class="agreement">
-                            <label for="agreement" class="agreement-label">Acepto la <a href="#"
-                                    title="Lea nuestra política de privacidad">política de privacidad*</a></label>
-                            <input type="checkbox" name="subscription" class="agreement2">
-                            <label for="agreement2" class="agreement-label2">Suscríbeme al blog</label>
-                        </fieldset>
+                        <div class="check">
+                            <fieldset>
+                                <input type="checkbox" name="politica" class="agreement">
+                                <label for="agreement" class="agreement-label">Acepto la <a href="#"
+                                        title="Lea nuestra política de privacidad">política de privacidad*</a></label>
+                                <input type="checkbox" name="subscription" class="agreement2">
+                                <label for="agreement2" class="agreement-label2">Suscríbeme al blog</label>
+                            </fieldset>
+                        </div>
                         <button type="submit" id="btn-submit">DESCARGAR</button>
                     </form>
                 </div>
